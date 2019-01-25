@@ -55,6 +55,10 @@ def valid_move?(index)
   end
 end
 
+def turn_count
 
+end
+
+end
 
 end
