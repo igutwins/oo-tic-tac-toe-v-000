@@ -38,7 +38,8 @@ def position_taken?(index)
         false
       end
   end
-def valid_move?
+def valid_move?(index)
+
 end
 
 
