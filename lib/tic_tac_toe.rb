@@ -64,9 +64,9 @@ end
 
 def current_player
   if @board.turn_count % 2 == 0
-    "O" 
-  else 
+    "O"
+  else
     "X"
-  end 
-end 
+  end
+end
 end
