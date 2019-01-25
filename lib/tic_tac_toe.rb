@@ -28,6 +28,6 @@ def input_to_index(input)
 end
 
 def move(index,token = "X")
-  
+
 end
-end 
+end
