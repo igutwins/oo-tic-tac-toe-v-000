@@ -47,7 +47,7 @@ def valid_move?(index)
 
   def turn
     puts "Please enter a number (1-9):"
-    input = gets.string
+    input = gets.strip
     input_to_index(input)
     if valid_move?(index)
       display_board
