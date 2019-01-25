@@ -44,6 +44,10 @@ def valid_move?(index)
   else
     false
   end
+
+  def turn
+
+  end 
 end
 
 
