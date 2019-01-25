@@ -47,7 +47,7 @@ def valid_move?(index)
 
   def turn
 
-  end 
+  end
 end
 
 
