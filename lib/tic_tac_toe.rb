@@ -32,6 +32,6 @@ def move(index,token = "X")
 end
 
 def position_taken?
-    @board[index] == "X" || @board[index] == "O"}
+    @board[index] == "X" || @board[index] == "O"
   end
 end
