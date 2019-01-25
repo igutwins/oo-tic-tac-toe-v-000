@@ -56,9 +56,13 @@ def valid_move?(index)
 end
 
 def turn_count
-
-end
-
+  counter = 0
+  @board.each do |char|
+    if char == "X" || char == "O"
+      counter += 1
+    else 
+      nil
+  end 
 end
 
 end
