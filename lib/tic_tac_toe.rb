@@ -32,6 +32,8 @@ def move(index,token = "X")
 end
 
 def position_taken?
-  @board.detect {|token| token == "X" || token =="O"}
+  @board.detect do |token| 
+    token == "X" || token =="O"}
+  end 
 end
 end
