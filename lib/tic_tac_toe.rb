@@ -62,7 +62,8 @@ def turn_count
       counter += 1
     else
       nil
-  end
+    end
+    counter
 end
 
 end
