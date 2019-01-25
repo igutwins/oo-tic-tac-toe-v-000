@@ -60,9 +60,9 @@ def turn_count
   @board.each do |char|
     if char == "X" || char == "O"
       counter += 1
-    else 
+    else
       nil
-  end 
+  end
 end
 
 end
