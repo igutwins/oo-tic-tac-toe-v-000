@@ -76,7 +76,7 @@ end
 def won?
   WIN_COMBINATIONS.any? do |combo|
     if @board[combo[0]] == @board[combo[1]] && @board[combo[1]] == @board[combo[2]] && position_taken?(combo[0])
-      combo
+      return combo
     else
       false
     end
