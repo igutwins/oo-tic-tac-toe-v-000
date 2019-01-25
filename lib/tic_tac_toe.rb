@@ -1,3 +1,7 @@
 class TicTacToe
+#all methods go in here
 
-end 
+  def initialize
+    @board = Array.new(9, " ")
+  end
+end
