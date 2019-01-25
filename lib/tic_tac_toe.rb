@@ -35,4 +35,3 @@ def position_taken?
     @board[index] == "X" || @board[index] == "O"}
   end
 end
-end
