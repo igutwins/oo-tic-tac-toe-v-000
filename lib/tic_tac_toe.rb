@@ -39,12 +39,14 @@ def position_taken?(index)
         false
       end
   end
+
 def valid_move?(index)
   if index.between?(0,8) && !position_taken?(index)
     true
   else
     false
   end
+end
 
   def turn
     puts "Please enter a number (1-9):"
