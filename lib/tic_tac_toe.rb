@@ -78,7 +78,8 @@ def won?
       return combo
     end
   end
-
+def full?
+  @board.all? {|square| square != " "}
 
 end
 
