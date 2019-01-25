@@ -79,7 +79,7 @@ def won?
     else
       false
     end
-  end 
+  end
   end
 
 def full?
