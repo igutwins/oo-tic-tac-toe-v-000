@@ -30,4 +30,8 @@ end
 def move(index,token = "X")
   @board[index] = token
 end
+
+def position_taken
+  @board.detect {|token| token == "X" || token =="O"}
+end
 end
