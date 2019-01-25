@@ -61,4 +61,12 @@ end
 def turn_count
   @board.count {|square| square != " "}
 end
+
+def current_player
+  if @board.turn_count % 2 == 0
+    "O" 
+  else 
+    "X"
+  end 
+end 
 end
