@@ -63,7 +63,7 @@ def turn_count
     else
       nil
     end
-    counter
+    puts counter
   end
 end
 
