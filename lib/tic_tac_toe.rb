@@ -80,7 +80,7 @@ def won?
       false
     end
   end
-  
+
 def full?
   @board.all? {|square| square != " "}
 end
