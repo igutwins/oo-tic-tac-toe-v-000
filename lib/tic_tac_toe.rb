@@ -64,7 +64,7 @@ def turn_count
       nil
     end
     counter
-  end 
+  end
 end
 
 end
